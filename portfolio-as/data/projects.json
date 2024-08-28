@@ -1,8 +1,14 @@
 [
   {
     "title": "Project 1",
-    "description": "This is a project description",
-    "image": "project1.jpg",
+    "year": "2021",
+    "shortDescription": "This is a project short description",
+    "description": "This is a long project description",
+    "images": [
+      "project1-1.jpg",
+      "project1-2.jpg",
+      "project1-3.jpg"
+    ],
     "link": "https://www.google.com",
     "features": [
       "Feature 1",
