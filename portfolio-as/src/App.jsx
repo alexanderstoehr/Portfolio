@@ -7,13 +7,13 @@ import Header from "./components/Header.jsx";
 function App() {
 
     return (
-        <>
+        <div className="flex flex-col">
             <Header/>
             <Hero/>
             <Projects/>
             <Toolbox/>
             <About/>
-        </>
+        </div>
     )
 }
 
