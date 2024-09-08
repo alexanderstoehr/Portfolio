@@ -1,7 +1,7 @@
-export default function ToolSingle({Tool}) {
+export default function ToolSingle({tool}) {
     return (
         <div>
-            <p>ToolSingle</p>
+            <div className="">{tool.name}</div>
         </div>
     )
 }

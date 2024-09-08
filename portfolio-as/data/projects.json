@@ -1,6 +1,30 @@
 [
   {
+    "id": 1,
     "title": "Project 1",
+    "year": "2021",
+    "shortDescription": "This is a project short description",
+    "description": "This is a long project description",
+    "images": [
+      "project1-1.jpg",
+      "project1-2.jpg",
+      "project1-3.jpg"
+    ],
+    "link": "https://www.google.com",
+    "features": [
+      "Feature 1",
+      "Feature 2",
+      "Feature 3"
+    ],
+    "stack": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Project 2",
     "year": "2021",
     "shortDescription": "This is a project short description",
     "description": "This is a long project description",

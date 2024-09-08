@@ -8,10 +8,10 @@ export default function Projects() {
     return (
         <div className="flex-col">
             <div className="">Projects</div>
-            <div className="">
-                {projects.map((project) => {
-                        <ProjectListingSingle project={project}/>
-                    }
+            <div className=""> Singles
+                {projects.map((project) => (
+                        <ProjectListingSingle key={project.id} project={project}/>
+                    )
                 )}
             </div>
         </div>
