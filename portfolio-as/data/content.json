@@ -1,7 +1,23 @@
 [
-  {"hero": {}},
-  {"about": {}},
-  {"projects": {}},
-  {"toolbox": {}},
-  {"contact": {}}
+  {
+    "hero": {
+      "intro": "Hello, I'm",
+      "name": "John Doe",
+      "description": "I'm a web developer."
+    }
+  },
+  {
+    "about": {}
+  },
+  {
+    "projects": {
+      "heading": "Some Projects"
+    }
+  },
+  {
+    "toolbox": {}
+  },
+  {
+    "contact": {}
+  }
 ]
