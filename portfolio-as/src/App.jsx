@@ -7,7 +7,7 @@ import Header from "./components/Header.jsx";
 function App() {
 
     return (
-        <div className="flex min-w-[1200px] flex-col align-middle">
+        <div className="flex flex-col align-middle gap-8 mt-4 w-full max-w-screen-lg mx-auto w-screen px-8 xl:w-[1200px] xl:p-0">
             <Header/>
             <Hero/>
             <Projects/>
