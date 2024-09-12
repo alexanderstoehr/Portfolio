@@ -7,7 +7,8 @@ import Header from "./components/Header.jsx";
 function App() {
 
     return (
-        <div className="flex flex-col w-[1200px]">
+        <div
+            className="font-hindi flex flex-col w-[1200px] bg-neutral-200 text-neutral-800 dark:bg-neutral-800 dark:text-neutral-200 ">
             <Header/>
             <Hero/>
             <Projects/>
