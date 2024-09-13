@@ -20,8 +20,8 @@ export default function Header({theme, toggleTheme}) {
                     </a>
                 </span>
 
-                <span className="flex gap-2">
-                    <img src={theme === "dark" ? "/lightmode.svg" : "/lightmode-lightmode.svg"}/>
+                <span className="flex gap-1">
+                    <img className="mr-0.5" src={theme === "dark" ? "/lightmode.svg" : "/lightmode-lightmode.svg"}/>
                     <label className="inline-flex items-center cursor-pointer">
                         <input
                             type="checkbox"
@@ -30,7 +30,7 @@ export default function Header({theme, toggleTheme}) {
                             onChange={toggleTheme}
                         />
                         <div
-                            className="relative w-11 h-6 bg-gray-400  dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-400 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[1.5px] after:start-[2px] after:bg-cyan-500 after:border-cyan-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-700"></div>
+                            className="relative w-11 h-6 bg-gray-400  dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-400 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-cyan-500 after:border-cyan-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-700"></div>
                     </label>
                     <img src={theme === "dark" ? "/darkmode.svg" : "/darkmode-lightmode.svg"}/>
                 </span>
