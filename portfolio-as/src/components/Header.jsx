@@ -10,8 +10,12 @@ export default function Header({theme, toggleTheme}) {
 
             <div className="flex gap-16 align-middle">
                 <span className="flex gap-4">
-                    <a href={contact.linkedin} target="_blank"> <img src="/linkedin.svg"/></a>
-                    <a href={contact.github} target="_blank">  <img src="/github.svg"/></a>
+                    <a href={contact.linkedin} target="_blank">
+                        <img src={theme === "dark" ? "/linkedin.svg" : "/linkedin-lightmode.svg"}/>
+                    </a>
+                    <a href={contact.github} target="_blank">
+                        <img src={theme === "dark" ? "/github.svg" : "/github-lightmode.svg"}/>
+                    </a>
                 </span>
 
                 <span className="flex gap-2">
