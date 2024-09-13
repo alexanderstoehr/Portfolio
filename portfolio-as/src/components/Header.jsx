@@ -2,7 +2,7 @@ import data from '/data/content.json'
 
 const {contact} = data.find(item => item.contact);
 
-export default function Header() {
+export default function Header({theme, toggleTheme}) {
     return (
         <div className="flex justify-between pt-2">
 
@@ -17,7 +17,12 @@ export default function Header() {
                 <span className="flex gap-2">
                     <img src="/lightmode.svg"/>
                     <label className="inline-flex items-center cursor-pointer">
-                        <input type="checkbox" value="" className="sr-only peer"/>
+                        <input
+                            type="checkbox"
+                            className="sr-only peer"
+                            checked={theme === 'dark'}
+                            onChange={toggleTheme}
+                        />
                         <div
                             className="relative w-11 h-6 bg-gray-200  dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-400 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[1.5px] after:start-[2px] after:bg-cyan-500 after:border-cyan-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-700"></div>
                     </label>
