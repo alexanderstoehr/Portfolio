@@ -22,10 +22,6 @@ function App() {
         <div
             className="flex min-h-screen flex-col align-middle gap-8 mt-4 w-full max-w-screen-lg mx-auto w-screen px-8 xl:w-[1200px] xl:p-0">
             <Header theme={theme} toggleTheme={toggleTheme}/>
-            <Hero/>
-            <Projects/>
-            <Toolbox/>
-            <About/>
             <Footer theme={theme}/>
         </div>
     )
