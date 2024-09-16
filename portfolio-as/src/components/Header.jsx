@@ -4,7 +4,7 @@ const {contact} = data.find(item => item.contact);
 
 export default function Header({theme, toggleTheme}) {
     return (
-        <div className="flex justify-between pt-2">
+        <div className="flex justify-between pt-8">
 
             <span>
                 <img src={theme === "dark" ? "/as-logo.svg" : "/as-logo-lightmode.svg"}/>
