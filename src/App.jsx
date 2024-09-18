@@ -27,4 +27,7 @@ function App() {
     )
 }
 
+//TODO: Enable 404 redirects to home or add a 404 page
+//TODO: Add redirects from lod htaccess file
+
 export default App
