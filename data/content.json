@@ -7,15 +7,15 @@
     }
   },
   {
-    "about": {
-      "heading": "About Me",
-      "text": "First website in 2008, built optimized WP Sites since 2013, freelanced as SEO consultant since 2013, ecommerce specialist since 2014, Google Ads professional (and partner) since 2018 and finally fullstack dev with focus on react and django since 2024."
+    "projects": {
+      "heading": "Some Projects",
+      "subhead": "Fluffy Stuff from over the years."
     }
   },
   {
-    "projects": {
-      "heading": "Some Projects",
-      "subhead": "A few of my projects."
+    "about": {
+      "heading": "About Me",
+      "text": "First website in 2008, built optimized WP Sites since 2013, freelanced as SEO consultant since 2013, ecommerce specialist since 2014, Google Ads professional (and partner) since 2018 and finally fullstack dev with focus on react and django since 2024."
     }
   },
   {
