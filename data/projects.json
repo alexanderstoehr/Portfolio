@@ -6,9 +6,9 @@
     "shortDescription": "This is a project short description",
     "description": "This is a long project description",
     "images": [
-      "project1-1.jpg",
-      "project1-2.jpg",
-      "project1-3.jpg"
+      "project-placeholder.png",
+      "project-placeholder.png",
+      "project-placeholder.png"
     ],
     "link": "https://www.google.com",
     "features": [
@@ -25,13 +25,82 @@
   {
     "id": 2,
     "title": "Project 2",
-    "year": "2021",
+    "year": "2020",
     "shortDescription": "This is a project short description",
     "description": "This is a long project description",
     "images": [
-      "project1-1.jpg",
-      "project1-2.jpg",
-      "project1-3.jpg"
+      "project-placeholder.png",
+      "project-placeholder.png",
+      "project-placeholder.png"
+    ],
+    "link": "https://www.google.com",
+    "features": [
+      "Feature 1",
+      "Feature 2",
+      "Feature 3"
+    ],
+    "stack": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Project 3",
+    "year": "2019",
+    "shortDescription": "This is a project short description",
+    "description": "This is a long project description",
+    "images": [
+      "project-placeholder.png",
+      "project-placeholder.png",
+      "project-placeholder.png"
+    ],
+    "link": "https://www.google.com",
+    "features": [
+      "Feature 1",
+      "Feature 2",
+      "Feature 3"
+    ],
+    "stack": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Project 4",
+    "year": "2018",
+    "shortDescription": "This is a project short description",
+    "description": "This is a long project description",
+    "images": [
+      "project-placeholder.png",
+      "project-placeholder.png",
+      "project-placeholder.png"
+    ],
+    "link": "https://www.google.com",
+    "features": [
+      "Feature 1",
+      "Feature 2",
+      "Feature 3"
+    ],
+    "stack": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Project 5",
+    "year": "2017",
+    "shortDescription": "This is a project short description. This is a project short description.",
+    "description": "This is a long project description",
+    "images": [
+      "project-placeholder.png",
+      "project-placeholder.png",
+      "project-placeholder.png"
     ],
     "link": "https://www.google.com",
     "features": [
