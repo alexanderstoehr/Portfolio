@@ -4,7 +4,7 @@ import data from '/data/content.json'
 
 const {projects} = data.find(item => item.projects);
 
-console.log(projects)
+
 export default function Projects() {
 
     return (

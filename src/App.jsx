@@ -20,10 +20,11 @@ function App() {
 
     return (
         <div
-            className="flex min-h-screen flex-col align-middle gap-8 max-w-screen-lg mx-auto px-8 xl:w-[1200px] xl:p-0">
+            className="flex min-h-screen flex-col align-middle gap-24 max-w-screen-lg mx-auto px-8 xl:w-[1200px] xl:p-0">
             <Header theme={theme} toggleTheme={toggleTheme}/>
             <Hero/>
             <Projects/>
+            <Toolbox/>
             <Footer theme={theme}/>
         </div>
     )
