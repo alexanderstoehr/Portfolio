@@ -13,15 +13,15 @@ export default function Header({theme, toggleTheme}) {
             <div className="flex gap-16 align-middle">
                 <span className="flex gap-4">
                     <a href={contact.linkedin} target="_blank">
-                        <img src={theme === "dark" ? "/linkedin.svg" : "/linkedin-lightmode.svg"}/>
+                        <img className="hover:scale-110" src={theme === "dark" ? "/linkedin.svg" : "/linkedin-lightmode.svg"}/>
                     </a>
                     <a href={contact.github} target="_blank">
-                        <img src={theme === "dark" ? "/github.svg" : "/github-lightmode.svg"}/>
+                        <img className="hover:scale-110" src={theme === "dark" ? "/github.svg" : "/github-lightmode.svg"}/>
                     </a>
                 </span>
 
                 <span className="flex gap-1">
-                    <img className="mr-0.5" src={theme === "dark" ? "/lightmode.svg" : "/lightmode-lightmode.svg"}/>
+                    <img className="mr-0.5 " src={theme === "dark" ? "/lightmode.svg" : "/lightmode-lightmode.svg"}/>
                     <label className="inline-flex items-center cursor-pointer">
                         <input
                             type="checkbox"
