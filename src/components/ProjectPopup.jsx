@@ -10,16 +10,16 @@ export default function ProjectPopup({projectId, handleProjectClick}) {
     console.log("current project", currentProject)
 
     return (
-        <div className="fixed inset-0 flex justify-center items-center z-40 m-4">
+        <div className="fixed inset-0 flex justify-center items-center z-40 m-4 max-h-full">
             <div onClick={() => handleProjectClick(0)} className="fixed inset-0 bg-black/80 z-40"></div>
             <div
-                className="absolute max-h-full overflow-y: auto p-6 md:p-24 rounded-lg border border-white/10 bg-white/10 shadow-lg m-auto backdrop-blur-md z-50">
+                className="absolute max-h-full overflow-y-auto p-6 md:p-24 rounded-lg border border-white/10 bg-white/10 shadow-lg m-auto backdrop-blur-md z-50">
                 <div className=" z-10 text-neutral-300 flex flex-col ">
                     <img className="cursor-pointer h-6 absolute top-0 right-0 m-4 md:m-12 hover:scale-110"
                          onClick={() => handleProjectClick(0)}
                          src="/close-popup.svg"/>
-                    <div className="flex flex-col md:flex-row gap-8 md:gap-24">
-                        <div className="">
+                    <div className="flex flex-col md:flex-row gap-8 md:gap-16 lg:gap-24">
+                        <div className="flex-1">
                             <div className="text-xl mb-2 font-bold">{currentProject.title}</div>
                             <div className="mb-2">{currentProject.shortDescription}</div>
                             <div className="mb-4">{currentProject.description}</div>
@@ -40,9 +40,9 @@ export default function ProjectPopup({projectId, handleProjectClick}) {
                                 ))}
                             </div>
                         </div>
-                        <div className="">
+                        <div className="flex-1 h-full overflow-y-auto">
                             {currentProject.images.map((image, ind) => (
-                                <img key={ind} className="rounded-lg mb-4" src={image}/>
+                                <img key={ind} className="rounded-lg mb-4 w-full " src={image}/>
                             ))}
                         </div>
                     </div>
