@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "Project 1",
+    "title": "Devjokes API",
     "year": "2021",
-    "shortDescription": "This is a project short description",
-    "description": "This is a long project description",
+    "shortDescription": "A RESTful API that serves developer jokes.",
+    "description": "Django-based Devjokes API as a side project with a react frontend for the API documentation. RESTful endpoints for jokes, deployed with an SQLite database to Heroku. A serverside script reloads the initial state of the database at every Dyno restart.",
     "images": [
       "project-placeholder.png",
       "project-placeholder.png",
@@ -12,14 +12,17 @@
     ],
     "link": "https://www.google.com",
     "features": [
-      "Feature 1",
-      "Feature 2",
-      "Feature 3"
+      "React.js frontend that serves as a documentation and project showcase",
+      "Postman collection for testing the API",
+      "SQLite database for storing jokes"
     ],
     "stack": [
-      "HTML",
-      "CSS",
-      "JS"
+      "React.js",
+      "Django",
+      "SQLite",
+      "Heroku",
+      "Postman",
+      "Netlify"
     ]
   },
   {
