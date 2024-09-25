@@ -2,7 +2,7 @@
   {
     "hero": {
       "heading": "Sup?",
-      "subhead": "Building Fullstack Apps with React.js and Django.",
+      "subhead": "Building Fullstack Apps with React.js and Django!",
       "intro": "Hi, I’m Alexander, a web developer from Germany who loves building awesome products with code."
     }
   },
@@ -15,7 +15,7 @@
   {
     "toolbox": {
       "heading": "My Toolbox",
-      "subhead": "Some colorful badges from tools i use."
+      "subhead": "The tools I regularly use."
     }
   },
   {

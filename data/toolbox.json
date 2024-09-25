@@ -1,22 +1,122 @@
 [
   {
     "id": 1,
-    "name": "Hammer"
+    "name": "Javascript",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   {
     "id": 2,
-    "name": "Screwdriver"
+    "name": "HTML",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
   {
     "id": 3,
-    "name": "Wrench"
+    "name": "CSS",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
   },
   {
     "id": 4,
-    "name": "Pliers"
+    "name": "React",
+    "link": "https://reactjs.org/"
   },
   {
     "id": 5,
-    "name": "Tape Measure"
+    "name": "React Router",
+    "link": "https://reactrouter.com/"
+  },
+  {
+    "id": 6,
+    "name": "Redux",
+    "link": "https://redux.js.org/"
+  },
+  {
+    "id": 7,
+    "name": "SQL",
+    "link": "https://www.w3schools.com/sql/"
+  },
+  {
+    "id": 8,
+    "name": "API",
+    "link": "https://en.wikipedia.org/wiki/API"
+  },
+  {
+    "id": 9,
+    "name": "Python",
+    "link": "https://www.python.org/"
+  },
+  {
+    "id": 10,
+    "name": "Django",
+    "link": "https://www.djangoproject.com/"
+  },
+  {
+    "id": 11,
+    "name": "Git",
+    "link": "https://git-scm.com/"
+  },
+  {
+    "id": 12,
+    "name": "ORM",
+    "link": "https://en.wikipedia.org/wiki/Object-relational_mapping"
+  },
+  {
+    "id": 13,
+    "name": "SASS",
+    "link": "https://sass-lang.com/"
+  },
+  {
+    "id": 14,
+    "name": "AUTH",
+    "link": "https://en.wikipedia.org/wiki/Authentication"
+  },
+  {
+    "id": 15,
+    "name": "WordPress",
+    "link": "https://wordpress.org/"
+  },
+  {
+    "id": 16,
+    "name": "Postgres",
+    "link": "https://www.postgresql.org/"
+  },
+  {
+    "id": 17,
+    "name": "Styled Components",
+    "link": "https://styled-components.com/"
+  },
+  {
+    "id": 18,
+    "name": "UI/UX",
+    "link": "https://www.interaction-design.org/literature/topics/ui-design"
+  },
+  {
+    "id": 19,
+    "name": "Figma",
+    "link": "https://www.figma.com/"
+  },
+  {
+    "id": 20,
+    "name": "Ecommerce",
+    "link": "https://en.wikipedia.org/wiki/E-commerce"
+  },
+  {
+    "id": 21,
+    "name": "SEO",
+    "link": "https://en.wikipedia.org/wiki/Search_engine_optimization"
+  },
+  {
+    "id": 22,
+    "name": "Analytics",
+    "link": "https://en.wikipedia.org/wiki/Analytics"
+  },
+  {
+    "id": 23,
+    "name": "Google Ads",
+    "link": "https://ads.google.com/"
+  },
+  {
+    "id": 24,
+    "name": "Project Management",
+    "link": "https://en.wikipedia.org/wiki/Project_management"
   }
 ]

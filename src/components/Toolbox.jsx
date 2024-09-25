@@ -9,7 +9,7 @@ export default function Toolbox() {
         <div className="flex-col">
             <div className="text-4xl font-bold">{toolbox.heading}</div>
             <div className="font-bold mb-4">{toolbox.subhead}</div>
-            <div>{tools.map((tool) => (
+            <div className="flex flex-wrap ">{tools.map((tool) => (
                 <ToolSingle key={tool.id} tool={tool}/>
 
             ))}
