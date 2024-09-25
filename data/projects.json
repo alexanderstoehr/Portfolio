@@ -6,11 +6,9 @@
     "shortDescription": "A RESTful API that serves developer jokes.",
     "description": "Django-based Devjokes API as a side project with a react frontend for the API documentation. RESTful endpoints for jokes, deployed with an SQLite database to Heroku. A serverside script reloads the initial state of the database at every Dyno restart.",
     "images": [
-      "project-placeholder.png",
-      "project-placeholder.png",
-      "project-placeholder.png"
+      "devjokes-screen.png"
     ],
-    "link": "https://github.com/alexanderstoehr/Devjokes-API",
+    "link": "https://devjokes.alexander-stoehr.de/",
     "features": [
       "React.js frontend that serves as a documentation and project showcase",
       "Postman collection for testing the API",
@@ -32,9 +30,7 @@
     "shortDescription": "Handle leave requests for your Team easily.",
     "description": "Final project for my 8-month intensive full stack course, creating a tool where HR and team managers can handle leave requests and keep track of employee absence. Employees can request vacations, trainings and file absence notices. Stack: React, Django, Postgres",
     "images": [
-      "project-placeholder.png",
-      "project-placeholder.png",
-      "project-placeholder.png"
+      "genie-screen.png"
     ],
     "link": "https://github.com/alexanderstoehr/HR-Leave-Management-Tool",
     "features": [
@@ -58,9 +54,7 @@
     "shortDescription": "Manage and share recipes with Django API.",
     "description": "Django-based Cookbook API for managing and sharing culinary recipes, featuring RESTful endpoints, JWT authentication, and integration with DigitalOcean Spaces for media storage. Utilized Django Rest Framework and JWT authentication.",
     "images": [
-      "project-placeholder.png",
-      "project-placeholder.png",
-      "project-placeholder.png"
+      "cookbook-screen.png"
     ],
     "link": "https://github.com/alexanderstoehr/Cookbook-API",
     "features": [
@@ -81,9 +75,7 @@
     "shortDescription": "High sales, great UI, low support requests.",
     "description": "Frontend design, Wordpress implentation and custom JavaScript for rezensia.ch. From zero to five figures of sales within the first month through a good and working UI. \u2028\nHigh conversion rate, low support requests, awesome user feedback.",
     "images": [
-      "project-placeholder.png",
-      "project-placeholder.png",
-      "project-placeholder.png"
+      "rezensia-screen.png"
     ],
     "link": "https://rezensia.ch/",
     "features": [
@@ -104,9 +96,7 @@
     "shortDescription": "Real estate listings: WordPress, ratings, business development.",
     "description": "Frontend design, implementation in WordPress, and business development. A Real estate agent listing platform with rating functionalities. The platform has good exposure and is helping homeowners to find a proficient real estate agent in their area.",
     "images": [
-      "project-placeholder.png",
-      "project-placeholder.png",
-      "project-placeholder.png"
+      "mvz-screen.png"
     ],
     "link": "https://maklerverzeichnis.ch/",
     "features": [
