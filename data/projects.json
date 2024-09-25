@@ -1,48 +1,113 @@
 [
   {
     "id": 1,
-    "title": "Project 1",
+    "title": "Devjokes API",
     "year": "2021",
-    "shortDescription": "This is a project short description",
-    "description": "This is a long project description",
+    "shortDescription": "A RESTful API that serves developer jokes.",
+    "description": "Django-based Devjokes API as a side project with a react frontend for the API documentation. RESTful endpoints for jokes, deployed with an SQLite database to Heroku. A serverside script reloads the initial state of the database at every Dyno restart.",
     "images": [
-      "project1-1.jpg",
-      "project1-2.jpg",
-      "project1-3.jpg"
+      "devjokes-screen.png"
     ],
-    "link": "https://www.google.com",
+    "link": "https://devjokes.alexander-stoehr.de/",
     "features": [
-      "Feature 1",
-      "Feature 2",
-      "Feature 3"
+      "React.js frontend that serves as a documentation and project showcase",
+      "Postman collection for testing the API",
+      "SQLite database for storing jokes"
     ],
     "stack": [
-      "HTML",
-      "CSS",
-      "JS"
+      "React.js",
+      "Django",
+      "SQLite",
+      "Heroku",
+      "Postman",
+      "Netlify"
     ]
   },
   {
     "id": 2,
-    "title": "Project 2",
-    "year": "2021",
-    "shortDescription": "This is a project short description",
-    "description": "This is a long project description",
+    "title": "HR Leave Management Tool",
+    "year": "2024",
+    "shortDescription": "Handle leave requests for your Team easily.",
+    "description": "Final project for my 8-month intensive full stack course, creating a tool where HR and team managers can handle leave requests and keep track of employee absence. Employees can request vacations, trainings and file absence notices. Stack: React, Django, Postgres",
     "images": [
-      "project1-1.jpg",
-      "project1-2.jpg",
-      "project1-3.jpg"
+      "genie-screen.png"
     ],
-    "link": "https://www.google.com",
+    "link": "https://github.com/alexanderstoehr/HR-Leave-Management-Tool",
     "features": [
-      "Feature 1",
-      "Feature 2",
-      "Feature 3"
+      "Advanced user hierarchy with different roles and permissions",
+      "Email notifications for leave requests and approvals",
+      "Calendar view for team managers to keep track of employee absence"
     ],
     "stack": [
-      "HTML",
-      "CSS",
-      "JS"
+      "React.js",
+      "Django",
+      "Postgres",
+      "Heroku",
+      "Netlify",
+      "DigitalOcean Spaces"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Cookbook API",
+    "year": "2024",
+    "shortDescription": "Manage and share recipes with Django API.",
+    "description": "Django-based Cookbook API for managing and sharing culinary recipes, featuring RESTful endpoints, JWT authentication, and integration with DigitalOcean Spaces for media storage. Utilized Django Rest Framework and JWT authentication.",
+    "images": [
+      "cookbook-screen.png"
+    ],
+    "link": "https://github.com/alexanderstoehr/Cookbook-API",
+    "features": [
+      "JWT authentication for secure access to the API",
+      "DigitalOcean Spaces for media storage",
+      "Postman collection for testing the API"
+    ],
+    "stack": [
+      "Django",
+      "Postgres",
+      "Heroku"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "rezensia.ch",
+    "year": "2024",
+    "shortDescription": "High sales, great UI, low support requests.",
+    "description": "Frontend design, Wordpress implentation and custom JavaScript for rezensia.ch. From zero to five figures of sales within the first month through a good and working UI. \u2028\nHigh conversion rate, low support requests, awesome user feedback.",
+    "images": [
+      "rezensia-screen.png"
+    ],
+    "link": "https://rezensia.ch/",
+    "features": [
+      "Custom JavaScript for a better user experience",
+      "Rating Calculator for users to find the right product",
+      "Custom Wordpress theme (Elementor) for a unique design"
+    ],
+    "stack": [
+      "Wordpress",
+      "WooCommerce",
+      "JavaScript"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Maklerverzeichnis",
+    "year": "2023",
+    "shortDescription": "Real estate listings: WordPress, ratings, business development.",
+    "description": "Frontend design, implementation in WordPress, and business development. A Real estate agent listing platform with rating functionalities. The platform has good exposure and is helping homeowners to find a proficient real estate agent in their area.",
+    "images": [
+      "mvz-screen.png"
+    ],
+    "link": "https://maklerverzeichnis.ch/",
+    "features": [
+      "Rating functionalities for real estate agents",
+      "Custom Wordpress theme for a unique design",
+      "Business development for the platform"
+    ],
+    "stack": [
+      "Wordpress",
+      "WooCommerce",
+      "JavaScript"
     ]
   }
 ]

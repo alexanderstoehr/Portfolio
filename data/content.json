@@ -1,27 +1,27 @@
 [
   {
     "hero": {
-      "heading": "Sup.",
-      "subhead": "Building Stuff Fullstacky.",
-      "intro": "Lorem Ipsum Webdev from Kassel with more than a decade of experience in tech."
+      "heading": "Sup?",
+      "subhead": "Building Fullstack Apps with React.js and Django!",
+      "intro": "Hi, I’m Alexander, a web developer from Germany who loves building awesome products with code."
+    }
+  },
+  {
+    "projects": {
+      "heading": "Some Projects",
+      "subhead": "Fluffy Stuff from over the years."
+    }
+  },
+  {
+    "toolbox": {
+      "heading": "My Toolbox",
+      "subhead": "The tools I regularly use."
     }
   },
   {
     "about": {
       "heading": "About Me",
       "text": "First website in 2008, built optimized WP Sites since 2013, freelanced as SEO consultant since 2013, ecommerce specialist since 2014, Google Ads professional (and partner) since 2018 and finally fullstack dev with focus on react and django since 2024."
-    }
-  },
-  {
-    "projects": {
-      "heading": "Some Projects",
-      "subhead": "A few of my projects."
-    }
-  },
-  {
-    "toolbox": {
-      "heading": "My Toolbox",
-      "subhead": "Some colorful badges from tools i use."
     }
   },
   {
