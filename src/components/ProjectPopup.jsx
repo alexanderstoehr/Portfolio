@@ -31,7 +31,7 @@ export default function ProjectPopup({projectId, handleProjectClick}) {
                                     </div>
                                 ))}
                             </div>
-                            <div className="flex  justify-between  gap-16">
+                            <div className="flex flex-col md:flex-row justify-between  gap-4 md:gap-16">
                                 <div>
                                     <div className="text-lg font-bold">Technology</div>
                                     <div className="mb-4">
