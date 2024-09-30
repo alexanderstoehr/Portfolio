@@ -25,6 +25,7 @@ function App() {
             <Hero/>
             <Projects/>
             <Toolbox/>
+            <About/>
             <Footer theme={theme}/>
         </div>
     )
