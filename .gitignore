@@ -1,6 +1,20 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,linux,django,python,pycharm,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,django,python,pycharm,windows
 
+#Fend
+.idea*
+__pyc__
+node_modules*
+build*
+package-lock.js
+static-files*
+.vscode
+.DS_Store
+/node_modules
+
+
+
+
 ### Django ###
 *.log
 *.pot
