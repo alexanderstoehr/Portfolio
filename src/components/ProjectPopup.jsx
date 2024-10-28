@@ -41,6 +41,15 @@ export default function ProjectPopup({projectId, handleProjectClick}) {
                                             </div>
                                         ))}
                                     </div>
+
+                                    {currentProject.figma &&
+                                        <>
+                                            <div className="text-lg font-bold">Links</div>
+                                            <div className="mb-4 hover:underline"><a target="_blank" href={currentProject.figma}>• Figma
+                                                Mockup</a></div>
+                                        </>
+                                    }
+
                                 </div>
                                 <img className="rounded-lg mb-4 " src={currentProject.images[0]}/>
                                 {/*<div className="flex flex-1 h-full overflow-y-auto">
