@@ -51,7 +51,7 @@ export default function ProjectPopup({projectId, handleProjectClick}) {
                                     }
 
                                 </div>
-                                <img className="rounded-lg mb-4 " src={currentProject.images[0]}/>
+                                <img className="rounded-3xl mb-4 h-fit" src={currentProject.images[0]}/>
                                 {/*<div className="flex flex-1 h-full overflow-y-auto">
                                     {currentProject.images.map((image, ind) => (
                                         <img key={ind} className="rounded-lg mb-4 w-full " src={image}/>
