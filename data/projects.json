@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Devjokes API",
-    "year": "2021",
+    "year": "2024",
     "shortDescription": "A RESTful API that serves developer jokes.",
     "description": "Django-based Devjokes API as a side project with a react frontend for the API documentation. RESTful endpoints for jokes, deployed with an SQLite database to Heroku. A serverside script reloads the initial state of the database at every Dyno restart.",
     "images": [
