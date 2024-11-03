@@ -1,9 +1,10 @@
 [
   {
     "hero": {
-      "heading": "Sup?",
-      "subhead": "Building Fullstack Apps with React.js and Django!",
-      "intro": "Hi, I’m Alexander, a web developer from Germany who loves building awesome products with code."
+      "preheading": "Alexander Stöhr",
+      "heading": "Fullstack Dev",
+      "subhead": "Building Apps with React.js and Django!",
+      "intro": "I am a Web developer from Germany who loves building awesome products with code."
     }
   },
   {
