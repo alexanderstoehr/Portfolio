@@ -1,10 +1,10 @@
 [
   {
-    "id": 1,
+    "id": 6,
     "title": "Veenotes (alpha)",
     "year": "2024",
     "shortDescription": "The ultimate tool to learn more effectively from online videos.",
-    "description": "Veenote is a React and Django-based application designed to enhance video-based learning. It allows users to bookmark key moments, add detailed notes, and organize videos into collections for a more structured learning experience. The app leverages modern web technologies to deliver a seamless and engaging interface, deployed on scalable platforms.",
+    "description": "Veenotes (currently in alpha version) is a React and Django-based application designed to enhance video-based learning. It allows users to bookmark key moments, add detailed notes, and organize videos into collections for a more structured learning experience. The app leverages modern web technologies to deliver a seamless and engaging interface, deployed on scalable platforms.",
     "images": [
       "veenotes--screen.png"
     ],
@@ -13,7 +13,6 @@
       "React.js frontend for a dynamic and intuitive user experience",
       "RESTful API powered by Django for managing videos, bookmarks, and collections",
       "Tailwind CSS for a responsive and customizable design system",
-      "Seamless user authentication and management with Clerk integration",
       "Scalable deployment with Heroku and Netlify"
     ],
     "stack": [
