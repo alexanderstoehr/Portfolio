@@ -1,6 +1,34 @@
 [
   {
     "id": 1,
+    "title": "Veenotes (alpha)",
+    "year": "2024",
+    "shortDescription": "The ultimate tool to learn more effectively from online videos.",
+    "description": "Veenote is a React and Django-based application designed to enhance video-based learning. It allows users to bookmark key moments, add detailed notes, and organize videos into collections for a more structured learning experience. The app leverages modern web technologies to deliver a seamless and engaging interface, deployed on scalable platforms.",
+    "images": [
+      "veenotes--screen.png"
+    ],
+    "link": "https://veenotes.com/",
+    "features": [
+      "React.js frontend for a dynamic and intuitive user experience",
+      "RESTful API powered by Django for managing videos, bookmarks, and collections",
+      "Tailwind CSS for a responsive and customizable design system",
+      "Seamless user authentication and management with Clerk integration",
+      "Scalable deployment with Heroku and Netlify"
+    ],
+    "stack": [
+      "React.js",
+      "Django",
+      "PostgreSQL",
+      "Heroku",
+      "Netlify",
+      "Tailwind CSS",
+      "TanStack Query"
+    ],
+    "figma": "https://www.figma.com/design/Z3oonXrdnYsifgVV64BFbi/VEENOTES?node-id=0-1&m=dev"
+  },
+  {
+    "id": 5,
     "title": "Devjokes API",
     "year": "2024",
     "shortDescription": "A RESTful API that serves developer jokes.",
@@ -25,7 +53,7 @@
     "figma": "https://www.figma.com/design/JqGmQSm09jlSMRZMid3mNW/DevJokes?node-id=8756-2045&m=dev&t=itGDnKVVUeqZ83k7-1"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "HR Leave Management Tool",
     "year": "2024",
     "shortDescription": "Handle leave requests for your Team easily.",
@@ -71,7 +99,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 2,
     "title": "rezensia.ch",
     "year": "2024",
     "shortDescription": "High sales, great UI, low support requests.",
@@ -93,7 +121,7 @@
     "figma": "https://www.figma.com/design/7mMryecW0bVtbSQ0a8T0cs/Rezensia?node-id=7-2759&m=dev&t=fAlTmyYPrHQzy8wh-1"
   },
   {
-    "id": 5,
+    "id": 1,
     "title": "Maklerverzeichnis",
     "year": "2023",
     "shortDescription": "Real estate listings: WordPress, ratings, business development.",

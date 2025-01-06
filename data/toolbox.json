@@ -118,5 +118,10 @@
     "id": 24,
     "name": "Project Management",
     "link": "https://en.wikipedia.org/wiki/Project_management"
+  },
+  {
+    "id": 25,
+    "name": "TanStack Query",
+    "link": "https://tanstack.com/query/latest"
   }
 ]
